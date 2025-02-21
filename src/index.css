@@ -1,6 +1,25 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Merriweather;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Merriweather;
 }
+
+/* for remove padding left and right */
+
+/* .css-gge3sb-MuiContainer-root {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-top: 5px !important;
+  min-height: 60vh;
+}
+
+@media (max-width: 600px) {
+  .css-gge3sb-MuiContainer-root {
+    box-sizing: border-box;
+    margin: 0px !important;
+    padding: 10px !important;
+  }
+} */

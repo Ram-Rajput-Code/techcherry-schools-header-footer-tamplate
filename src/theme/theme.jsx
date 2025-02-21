@@ -9,6 +9,7 @@ const theme = createTheme({
     secondary: { main: "#f48fb1" },
     background: {
       default: "#121212", // Default background color
+      white: "rgba(219, 218, 218, 0.69)", // white background color
       paper: "#1E1E1E", // Background for components like Card
       navbar: "#0D47A1", // Custom color for Navbar
       footer: "#00715D", // Custom color for Footer
