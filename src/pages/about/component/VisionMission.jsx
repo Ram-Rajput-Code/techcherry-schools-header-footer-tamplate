@@ -37,7 +37,7 @@ const VisionMission = () => {
                 <Typography variant="h5" component="div" gutterBottom color="red" fontWeight="bold">
                   {item.title}
                 </Typography>
-                <Typography variant="body1" color="black">
+                <Typography variant="body1" textAlign="justify" color="black">
                   {item.description}
                 </Typography>
               </CardContent>

@@ -7,12 +7,12 @@ import HomePage from "./pages/home/HomePage";
 import ContactPage from "./pages/contact/ContactPage";
 import AboutLayout from "./pages/about/AboutLayout";
 import AboutUs from "./pages/about/AboutUs";
-import Team from "./pages/about/Team";
 import History from "./pages/about/History";
 import TeamLayout from "./pages/team/TeamLayout";
 import Management from "./pages/team/Management";
 import Teacher from "./pages/team/Teacher";
 import GalleryPage from "./pages/gallery/GalleryPage";
+import FounderSection from "./pages/about/Founder";
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
             <Route path="about" element={<AboutLayout />}>
               <Route index element={<AboutUs />} />
               <Route path="us" element={<AboutUs />} />
-              <Route path="team" element={<Team />} />
+              <Route path="Founder" element={<FounderSection />} />
               <Route path="history" element={<History />} />
             </Route>
             {/* team */}

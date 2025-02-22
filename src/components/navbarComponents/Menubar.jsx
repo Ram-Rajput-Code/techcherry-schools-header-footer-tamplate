@@ -28,7 +28,7 @@ const menuItems = [
     path: "/about",
     submenu: [
       { label: "About Us", path: "/about/us" },
-      { label: "Team", path: "/about/team" },
+      { label: "Founder", path: "/about/founder" },
       { label: "History", path: "/about/history" },
     ],
   },

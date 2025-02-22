@@ -7,6 +7,7 @@ import "../../index.css";
 import HomeCards from "./componets/HomeCard";
 import HeroSection from "./componets/HeroSection";
 import HomeBody from "./componets/HomeBody";
+import AccordionComponent from "../about/component/AccordionComponent";
 const HomePage = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const HomePage = () => {
         <HomeBody/>
         <HeroSection/>
         <HomeCards />
+        <AccordionComponent/>
       </Container>
     </>
   );

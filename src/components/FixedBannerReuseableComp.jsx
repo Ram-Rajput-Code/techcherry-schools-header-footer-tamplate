@@ -46,10 +46,10 @@ const FixedBannerReuseableComp = ({ imageUrl, heading, content }) => {
           color: "white",
         }}
       >
-        <Typography variant="h3" fontWeight="bold">
+        <Typography variant="h3" color= "white" fontWeight="bold">
           {heading}
         </Typography>
-        <Typography variant="h6" mt={2} maxWidth="600px">
+        <Typography variant="h6" color= "white" mt={2} maxWidth="600px">
           {content}
         </Typography>
       </Container>
