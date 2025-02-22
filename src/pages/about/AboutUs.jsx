@@ -1,11 +1,15 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import { motion } from "framer-motion";
+import AboutBody from "./component/AboutBody";
+import VisionMission from "./component/VisionMission";
+import AccordionComponent from "./component/AccordionComponent";
 
 const AboutUs = () => {
   return (
-    <Box component={motion.div} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-      <Typography variant="h5">About Us</Typography>
-      <Typography variant="body1">We are an innovative computer education center.</Typography>
+    <Box component={motion.div} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} m={0}>
+      <AboutBody />
+      <VisionMission/>
+      <AccordionComponent/>
     </Box>
   );
 };

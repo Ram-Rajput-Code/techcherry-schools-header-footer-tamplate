@@ -10,7 +10,7 @@ const MainLayout = () => {
       <Navbar />
       <Box
       
-        sx={{ padding: 0, margin: 0, minHeight: "60vh", mt: 0, mb: 3 }}
+        sx={{ padding: 0, margin: 0, minHeight: "60vh", mt: 0}}
       >
         <Outlet />
       </Box>

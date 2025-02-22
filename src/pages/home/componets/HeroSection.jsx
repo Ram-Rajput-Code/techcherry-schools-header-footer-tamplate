@@ -25,10 +25,10 @@ const HeroSection = () => {
   const nextSlide = () => setIndex((prev) => (prev + 1) % slides.length);
   const prevSlide = () => setIndex((prev) => (prev - 1 + slides.length) % slides.length);
   const ref = useRef(null);
-  const isInView = useInView(ref, { triggerOnce: true, margin: "-55% 0px -45% 0px" });
+  const isInView = useInView(ref, { triggerOnce: true, margin: "-55% 0px -23% 0px" });
   const isSmallScreen = useMediaQuery("(max-width:600px)");
   return (
-    <Box sx={{ maxWidth: 1200, margin: "auto", p: 2 }} ref={ref} >
+    <Box sx={{ Width: "100%", margin: "auto", p: 1 }} ref={ref} >
       {/* Top Section */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -43,7 +43,7 @@ const HeroSection = () => {
             justifyContent:"space-around",
             gap: 4,
             p: 3,
-            borderRadius: 4,
+            borderRadius: 2,
             boxShadow: 3,
             bgcolor: "white",
           }}
@@ -119,7 +119,7 @@ const HeroSection = () => {
         <Box
         sx={{
             p: 2,
-            borderRadius: 4,
+            borderRadius: 2,
             boxShadow: 3,
             bgcolor: "rgba(200, 150, 250, 0.2)",
             textAlign: "center",
@@ -175,7 +175,7 @@ const HeroSection = () => {
           <Box
             sx={{
               p: 3,
-              borderRadius: 4,
+              borderRadius: 2,
               boxShadow: 3,
               bgcolor: "rgba(255, 180, 200, 0.3)",
               minHeight:"150px"

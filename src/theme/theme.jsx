@@ -11,7 +11,7 @@ const theme = createTheme({
       default: "#121212", // Default background color
       white: "rgba(219, 218, 218, 0.69)", // white background color
       paper: "#1E1E1E", // Background for components like Card
-      navbar: "#0D47A1", // Custom color for Navbar
+      navbar: "#2f4858", // Custom color for Navbar
       footer: "#00715D", // Custom color for Footer
     },
   },
@@ -31,22 +31,53 @@ const theme = createTheme({
     h1: {
       fontSize: "1.8rem",
       fontWeight: "bold",
-      color: "red", // Default color
-      "@media (min-width:600px)": { fontSize: "2rem", color: "blue" },
-      "@media (min-width:900px)": { fontSize: "2.2rem", color: "green" },
-      "@media (min-width:1200px)": { fontSize: "2.5rem", color: "orange" },
+      color: "black", // Default color
+      "@media (min-width:600px)": { fontSize: "2rem"},
+      "@media (min-width:900px)": { fontSize: "2.2rem" },
+      "@media (min-width:1200px)": { fontSize: "2.5rem" },
     },
-
     h2: {
-      fontSize: "1.75rem",
-      "@media (min-width:600px)": { fontSize: "2.25rem" },
-      "@media (min-width:900px)": { fontSize: "2.75rem" },
+      fontSize: "1.5rem",
+      fontWeight: "bold",
+      color: "black", // Default color
+      "@media (min-width:600px)": { fontSize: "1.6rem" },
+      "@media (min-width:900px)": { fontSize: "1.8rem" },
+      "@media (min-width:1200px)": { fontSize: "2rem"},
     },
     h3: {
-      fontSize: "1.5rem",
-      "@media (min-width:600px)": { fontSize: "2rem" },
-      "@media (min-width:900px)": { fontSize: "2.5rem" },
+      fontSize: "1.3rem",
+      fontWeight: "bold",
+      color: "black", // Default color
+      "@media (min-width:600px)": { fontSize: "1.4rem" },
+      "@media (min-width:900px)": { fontSize: "1.6rem" },
+      "@media (min-width:1200px)": { fontSize: "1.8rem"},
     },
+    h4: {
+      fontSize: "1.1rem",
+      fontWeight: "bold",
+      color: "black", // Default color
+      "@media (min-width:600px)": { fontSize: "1.2rem" },
+      "@media (min-width:900px)": { fontSize: "1.4rem" },
+      "@media (min-width:1200px)": { fontSize: "1.6rem"},
+    },
+    h5: {
+      fontSize: "0.8rem",
+      fontWeight: "bold",
+      color: "black", // Default color
+      "@media (min-width:600px)": { fontSize: "1rem" },
+      "@media (min-width:900px)": { fontSize: "1.2rem" },
+      "@media (min-width:1200px)": { fontSize: "1.4rem"},
+    },
+    h6: {
+      fontSize: "0.6rem",
+      fontWeight: "bold",
+      color: "black", // Default color
+      "@media (min-width:600px)": { fontSize: "0.8rem" },
+      "@media (min-width:900px)": { fontSize: "1rem" },
+      "@media (min-width:1200px)": { fontSize: "1.2rem"},
+    },
+
+   
     body1: {
       fontSize: "1rem",
       "@media (min-width:600px)": { fontSize: "1.125rem" },
