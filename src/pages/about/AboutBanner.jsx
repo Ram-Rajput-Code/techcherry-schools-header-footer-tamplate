@@ -1,7 +1,8 @@
-import FixedBannerReuseableComp from "../../../components/FixedBannerReuseableComp"
+import FixedBannerReuseableComp from "../../components/FixedBannerReuseableComp"
 
 
-const HomeBanner = () => {
+
+const AboutBanner = () => {
   return (
     <>
     <FixedBannerReuseableComp
@@ -13,4 +14,4 @@ const HomeBanner = () => {
   )
 }
 
-export default HomeBanner
+export default AboutBanner

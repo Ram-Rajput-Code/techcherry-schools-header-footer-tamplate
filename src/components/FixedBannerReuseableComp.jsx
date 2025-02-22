@@ -20,7 +20,7 @@ const FixedBannerReuseableComp = ({ imageUrl, heading, content }) => {
           top: 0,
           left: 0,
           width: "100%",
-          height: {xs:"60vh", md:"100vh"},
+          height: {xs:"60vh", md:"70vh"},
           backgroundImage: `url(${imageUrl})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
