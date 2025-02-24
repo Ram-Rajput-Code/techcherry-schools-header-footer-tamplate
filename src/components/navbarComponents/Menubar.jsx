@@ -40,6 +40,8 @@ const menuItems = [
       { label: "Teacher", path: "/team/teacher" },
     ],
   },
+  { label: "Fees", path: "/fees" },
+  { label: "TC", path: "/tc" },
   { label: "Contact", path: "/contact" },
   { label: "Gallery", path: "/gallery" },
 ];

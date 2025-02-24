@@ -13,6 +13,9 @@ import Management from "./pages/team/Management";
 import Teacher from "./pages/team/Teacher";
 import GalleryPage from "./pages/gallery/GalleryPage";
 import FounderSection from "./pages/about/Founder";
+import PageNotFound from "./components/PageNotFound";
+import FeesPage from "./pages/fees/FeesPage";
+import TC from "./pages/tc/TC";
 
 const App = () => {
   return (
@@ -37,6 +40,9 @@ const App = () => {
             </Route>
             <Route path="contact" element={<ContactPage />} />
             <Route path="gallery" element={<GalleryPage />} />
+            <Route path="fees" element={<FeesPage />} />
+            <Route path="tc" element={<TC />} />
+            <Route path="/*" element={<PageNotFound/>} />
           </Route>
         </Routes>
       </Router>
