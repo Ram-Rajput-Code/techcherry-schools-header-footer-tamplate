@@ -1,10 +1,13 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import { Link, Outlet } from "react-router-dom";
+import Banner from "./componentes/Banner";
 // import theme from "../../theme/theme";
 const TeamLayout = () => {
   return (
-    <Box sx={{ p: 3 }}>
-      <Typography variant="h1">Team page</Typography>
+    <>
+    <Banner/>
+    <Box sx={{ p: 2, backgroundColor:"white" }}>
+      
       <Box sx={{ display: "flex", gap: 2, mt: 2 }}>
         <Link to="management">Management</Link>
         <Link to="teacher">Teacher</Link>
@@ -14,6 +17,7 @@ const TeamLayout = () => {
         <Outlet /> {/* This will render nested pages */}
       </Box>
     </Box>
+    </>
   );
 };
 

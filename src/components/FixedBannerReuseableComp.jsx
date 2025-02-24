@@ -12,7 +12,13 @@ const FixedBannerReuseableComp = ({ imageUrl, heading, content }) => {
   const textY = useTransform(scrollYProgress, [0, 0.5], [0, -50]);
 
   return (
-    <Box sx={{ position: "relative", height: {xs:"45vh", md:"60vh"}, overflow: "hidden" }}>
+    <Box
+      sx={{
+        position: "relative",
+        height: { xs: "45vh", md: "60vh" },
+        overflow: "hidden",
+      }}
+    >
       {/* Background Image */}
       <Box
         sx={{
@@ -20,7 +26,7 @@ const FixedBannerReuseableComp = ({ imageUrl, heading, content }) => {
           top: 0,
           left: 0,
           width: "100%",
-          height: {xs:"60vh", md:"70vh"},
+          height: { xs: "60vh", md: "70vh" },
           backgroundImage: `url(${imageUrl})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -46,16 +52,15 @@ const FixedBannerReuseableComp = ({ imageUrl, heading, content }) => {
           color: "white",
         }}
       >
-        <Typography variant="h3" color= "white" fontWeight="bold">
+        <Typography variant="h3" color="white" fontWeight="bold">
           {heading}
         </Typography>
-        <Typography variant="h6" color= "white" mt={2} maxWidth="600px">
+        <Typography variant="h6" color="white" mt={2} maxWidth="600px">
           {content}
         </Typography>
       </Container>
 
       {/* Scrollable Content */}
-      
     </Box>
   );
 };
